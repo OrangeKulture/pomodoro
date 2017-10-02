@@ -1,0 +1,222 @@
+body {
+  font-family: 'Maven Pro', sans-serif;
+  background: rgb(200, 252, 151);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(200, 252, 151, 1) 1%,
+    rgba(163, 239, 146, 1) 48%,
+    rgba(120, 219, 127, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(200, 252, 151, 1) 1%,
+    rgba(163, 239, 146, 1) 48%,
+    rgba(120, 219, 127, 1) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(200, 252, 151, 1) 1%,
+    rgba(163, 239, 146, 1) 48%,
+    rgba(120, 219, 127, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(
+      startColorstr='#c8fc97',
+      endColorstr='#78db7f',
+      GradientType=1
+    );
+}
+
+h1 {
+  margin-top: 40px;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+h2 {
+  font-size: 1.75em;
+  padding: 10px;
+}
+
+.wrap {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.box {
+  width: 80%;
+  margin: 0 10% 0 10%;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.settings {
+  margin-bottom: 5px;
+  height: 300px;
+}
+
+.clock {
+  height: 235px;
+  margin-bottom: 25px;
+}
+
+#tom1 {
+  transform: rotate(25deg);
+  width: 32px;
+  height: 32px;
+}
+
+#tom2 {
+  transform: rotate(-45deg);
+  width: 32px;
+  height: 32px;
+}
+
+.tomato {
+  width: 16px;
+  height: 16px;
+}
+
+h4 {
+  margin-top: 15px;
+}
+
+.btn {
+  background-color: tomato;
+  border: none;
+}
+
+.btn-primary {
+  margin-top: 5px;
+}
+
+.btn:hover {
+  background-color: #ff846d;
+}
+
+.btn:active {
+  background-color: tomato !important;
+}
+
+.btn:focus {
+  background-color: tomato !important;
+  outline: 3px solid rgb(200, 252, 151);
+}
+
+.btn-warning {
+  margin-top: 10px;
+  background-color: tomato;
+}
+
+hr {
+  height: 1px;
+  width: 50%;
+  color: rgba(255, 99, 71, 0.3);
+  background-color: rgba(255, 99, 71, 0.3);
+  border: none;
+}
+
+.output {
+  font-size: 5em;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+#dot {
+  color: tomato;
+}
+
+#check {
+  margin-top: 20px;
+}
+
+input[type=checkbox] {
+  transform: scale(1.4);
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+.breakOutput p {
+  font-size: 50px;
+  font-family: 'Ubuntu Mono', monospace;
+}
+
+.breakPar {
+  margin-top: 10px;
+  font-size: 1.2em;
+}
+
+@media only screen and (min-device-width: 1224px) {
+  h1 {
+    margin-top: 80px;
+    font-size: 4.5em;
+  }
+
+  h2 {
+    font-size: 2.5em;
+  }
+
+  .wrap {
+    margin-top: 4%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .box {
+    width: 40%;
+    margin: 0.1%;
+    height: 320px;
+  }
+
+  .settings {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0;
+  }
+
+  .clock {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    margin-bottom: 0;
+  }
+
+  #tom1 {
+    width: 64px;
+    height: 64px;
+  }
+
+  #tom2 {
+    width: 64px;
+    height: 64px;
+  }
+
+  .output {
+    font-size: 12em;
+    font-family: 'Ubuntu Mono', monospace;
+    padding: 0;
+    margin: -20px auto 0 auto;
+  }
+  .chr {
+    margin-top: -50px;
+    width: 70%;
+  }
+
+  .modal-title {
+    font-size: 2em;
+  }
+
+  .breakOutput p {
+    font-size: 100px;
+    font-family: 'Ubuntu Mono', monospace;
+  }
+
+  .breakPar {
+    margin-top: 29px;
+  }
+}
